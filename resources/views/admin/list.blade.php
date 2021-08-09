@@ -43,7 +43,7 @@
         @foreach($list as $products)
             <tr>
                 <td>{{$products->id}}</td>
-                <td>{{$products->bookId}}</td>
+                <td>{{$products->bookid}}</td>
                 <td>{{$products->authorid}}</td>
                 <td>{{$products->title}}</td>
                 <td>{{$products->ISBN}}</td>
